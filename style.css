@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-background-color: #1f2937;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    padding: 4rem 20%;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #fff;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav {
+    background-color: var(--dark-background-color);
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.nav-link {
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-link a{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero-section {
+    background-color: var(--dark-background-color);
+    color: #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 18px;
+}
+
+.hero-container div {
+    height: 30vh;
+    width: 30vw;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.flex {
+    flex-grow: 1;
+}
+
+.image {
+    background-color: #666;
+    color: #e5e7eb;
+}
+
+.information-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 4rem 0;
+}
+
+.flex-item {
+    width: 200px;
+    font-size: 18px;
+    color: #666;
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border-radius: 1rem;
+    border: 2px solid #3882f6;
+    margin-bottom: 18px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-name {
+    text-align: right;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 3rem 8rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub-text {
+    font-size: 18px;
+}
+
+.call-btn {
+    border: 2px solid #fff;
+}
+
+footer {
+    background-color: var(--dark-background-color);
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
